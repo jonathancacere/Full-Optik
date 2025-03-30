@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .category {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .category img:hover {
+    transform: scale(1.05);
+  }
+  
+  .category p {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  table {
+    width:100%;
+    border-collapse: collapse ;
+  }
+  
+  body {
+    background-image: url("../Full-Optik/imagenes/");
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-image: url("../Full-Optik/imagenes/Full-optik.jpg");/* panel superior */
+    height: 100px;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+  }
+  
+  main {
+    background-image: url("../");
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    color: black;
+  }
+  
+  .category img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+
